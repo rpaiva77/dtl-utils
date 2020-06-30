@@ -8,5 +8,4 @@ Description:
 To use it:
   set ^ISCLogDTLObjs=1 in the applicable NS. 
   Append this line as a code block to every DTL you want to use: 
-  do:(##class(%Dictionary.CompiledClass).%ExistsId("TestHelper.Utils")) ##class(TestHelper.Utils).GenerateOutputFiles(source,target,"root path your to saved files",$this)
-  
+  do:(##class(%Dictionary.CompiledClass).%ExistsId("Utils.TestHelper")) ##class(Utils.TestHelper).GenerateOutputFiles(source,target,"root path your to saved files",$this)
